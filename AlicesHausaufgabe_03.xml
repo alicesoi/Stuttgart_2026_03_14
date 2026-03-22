@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -74,7 +73,167 @@
         </msDesc>
       </sourceDesc>
     </fileDesc>
-    <encodingDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml?place_annotation_20260322151402401",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-03-22T14:14:02.401Z",
+	"dcterms:modified": "2026-03-22T14:14:02.401Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alicesoi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alice Soiné"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml?place_annotation_20260322151402401#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml?place_annotation_20260322151402401#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q41",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.1.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml?place_annotation_20260322151431333",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-03-22T14:14:31.333Z",
+	"dcterms:modified": "2026-03-22T14:14:31.333Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alicesoi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alice Soiné"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml?place_annotation_20260322151431333#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml?place_annotation_20260322151431333#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/126678363",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.1.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc>
       <editorialDecl>
         <p>
             Bogensignaturen: keine Angabe;
@@ -88,7 +247,7 @@
             Kustoden: keine Angabe;
             langes s (ſ): keine Angabe;
             Normalisierungen: keine Angabe;
-            rundes r (&amp;#xa75b;): keine Angabe;
+            rundes r (ꝛ): keine Angabe;
             Seitenumbrüche markiert: keine Angabe;
             Silbentrennung: keine Angabe;
             u/v bzw. U/V: keine Angabe;
@@ -114,7 +273,7 @@
 <lb/>Derjenige junge schwarzgekleidete Mann mit
 <lb/>braunen Augen, braunem Haar und etwas schief
 <lb/>verschnittenem Backenbart, welcher vor einiger
-<lb/>Zeit im Tiergarten auf einer Bank unfern der
+<lb/>Zeit im <placeName key="Tiergarten (Berlin)" ref="http://viaf.org/viaf/126678363">Tiergarten</placeName> auf einer Bank unfern der
 <lb/>Statue des Apollo eine kleine himmelblaue Brief 
 <lb/>tasche mit goldnem Schloß gefunden und wahr 
 <lb/>scheinlich geöffnet hat, wird, da man weiß, daß
@@ -126,7 +285,7 @@
 <lb/>der ihm vielleicht interessant geworden, zu er 
 <lb/>fahren. Sollte jedoch der besagte junge Mann
 <lb/>den Entschluß, den er einmal gefaßt, jetzt aus 
-<lb/>zuführen gedenken, und jetzt nach Griechenland
+<lb/>zuführen gedenken, und jetzt nach <placeName key="Greece" ref="http://www.wikidata.org/entity/Q41" cert="high">Griechenland<precision match="@ref" precision="high"/></placeName>
 <lb/>reisen wollen, so wird er sehr gebeten, sich in
 </p>
 </body>
