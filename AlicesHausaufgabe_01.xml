@@ -1,18 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Hallo Welt!</title>
-</titleStmt>
-<publicationStmt>
-<p>Demo für Wikipedia</p>
-</publicationStmt>
-<sourceDesc>
-<p>Originales Werk, keine Vorlage</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Alice's Abenteuer im Wunderland</title>
+        <author>
+          <persName>
+            <surname>Carroll</surname>
+            <forename>Lewis</forename>
+          </persName>
+        </author>
+        <respStmt>
+          <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="https://www.bbaw.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+      <extent>
+        <measure type="images"/>
+        <measure type="tokens"/>
+        <measure type="types"/>
+        <measure type="characters"/>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2026-03-22T11:22:06Z</date>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">
+            <p>Public Domain Mark 1.0</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M"/>
+        <biblFull>
+          <titleStmt>
+          <title level="m" type="main">Alice's Abenteuer im Wunderland</title>
+            <author>
+              <persName>
+                <surname>Carroll</surname>
+                <forename>Lewis</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher><name>Hartknoch</name></publisher>
+              <pubPlace>Leipzig</pubPlace>
+            <date type="publication">1869</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc xml:id="imagesource-1" corresp="#availability-imagesource-1">
+          <msIdentifier>
+            <repository>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Germany</repository>
+            <idno>
+              <idno type="shelfmark">B IV 2a, 1207 R</idno>
+              <idno type="URLImages">http://resolver.staatsbibliothek-berlin.de/SBB0000402300000000</idno>
+            </idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+            Bogensignaturen: keine Angabe;
+            Druckfehler: keine Angabe;
+            fremdsprachliches Material: keine Angabe;
+            Geminations-/Abkürzungsstriche: keine Angabe;
+            Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+            I/J in Fraktur: keine Angabe;
+            i/j in Fraktur: keine Angabe;
+            Kolumnentitel: keine Angabe;
+            Kustoden: keine Angabe;
+            langes s (ſ): keine Angabe;
+            Normalisierungen: keine Angabe;
+            rundes r (&amp;#xa75b;): keine Angabe;
+            Seitenumbrüche markiert: keine Angabe;
+            Silbentrennung: keine Angabe;
+            u/v bzw. U/V: keine Angabe;
+            Vokale mit übergest. e: keine Angabe;
+            Vollständigkeit: keine Angabe;
+            Zeichensetzung: keine Angabe;
+            Zeilenumbrüche markiert: keine Angabe;
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
 <text>
 <body>
 <p>Hier kommt Ihr Text</p>
