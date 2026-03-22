@@ -39,7 +39,7 @@
         <pubPlace>Berlin</pubPlace>
         <date type="publication">2026-03-22T13:59:06Z</date>
         <availability xml:id="availability-imagesource-1" corresp="#imagesource-1" status="unknown">
-  <licence target="https://www.deutsche-digitale-bibliothek.de/content/lizenzen/rv-fz" type="copyright"/>
+  <licence target="https://www.deutsche-digitale-bibliothek.de/content/lizenzen/rv-fz"/>
 </availability>
       </publicationStmt>
       <sourceDesc>
