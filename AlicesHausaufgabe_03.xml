@@ -628,6 +628,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml?work_annotation_20260322152705613",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-03-22T14:27:05.613Z",
+	"dcterms:modified": "2026-03-22T14:27:05.613Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alicesoi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alice Soiné"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml?work_annotation_20260322152705613#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml?work_annotation_20260322152705613#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q11032",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.1.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
       <editorialDecl>
         <p>
@@ -663,7 +742,7 @@
 <p>
   <lb/>Verloren und Gefunden.
 <lb/>In dem zweiundachtzigsten Stück der Haude 
-<lb/>und Spenerschen Zeitung vom Jahre 18 .. befand
+<lb/>und Spenerschen <title key="newspaper" ref="http://www.wikidata.org/entity/Q11032">Zeitung</title> vom Jahre 18 .. befand
 <lb/>sich folgende Aufforderung:
 <lb/>Derjenige junge schwarzgekleidete Mann mit
 <lb/>braunen Augen, braunem Haar und etwas schief
