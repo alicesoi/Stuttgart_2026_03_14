@@ -549,6 +549,85 @@
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml?thing_annotation_20260322152546156",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-03-22T14:25:46.156Z",
+	"dcterms:modified": "2026-03-22T14:25:46.156Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alicesoi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alice Soiné"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml?thing_annotation_20260322152546156#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_03.xml?thing_annotation_20260322152546156#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q27686",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.1.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
       <editorialDecl>
         <p>
@@ -595,7 +674,7 @@
 <lb/>scheinlich geöffnet hat, wird, da man weiß, daß
 <lb/>er in Berlin nicht heimisch ist, ersucht, sich am
 <lb/><date when="18100724">vierundzwanzigsten Julius des künftigen Jahres<note>Hoffmann datiert das Jahr seiner Erzählung nicht konkret, vermutlich soll es sich aber um die Wende vom 18. zum 19. Jahrhundert handeln, weil die meisten seiner Erzählungen in der Zeit der frühen Romantik spielen. </note></date>
-<lb/>in <placeName key="Land Berlin" ref="https://sws.geonames.org/2950157" cert="high">Berlin<precision match="@ref" precision="high"/></placeName> und zwar in dem Hotel, die Sonne ge 
+<lb/>in <placeName key="Land Berlin" ref="https://sws.geonames.org/2950157" cert="high">Berlin<precision match="@ref" precision="high"/></placeName> und zwar in dem <rs key="hotel" ref="http://www.wikidata.org/entity/Q27686">Hotel</rs>, die Sonne ge 
 <lb/>heißen, bei der <persName cert="unknown" type="fictional"><persName cert="high">Madame Obermann</persName></persName> einzufinden,
 <lb/>um das Nähere über den Inhalt jener Brieftasche
 <lb/>der ihm vielleicht interessant geworden, zu er 
