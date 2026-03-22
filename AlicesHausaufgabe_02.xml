@@ -109,7 +109,6 @@
 	"id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_02.xml?note_annotation_20260322142224235",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-03-22T13:22:24.235Z",
-	"dcterms:modified": "2026-03-22T13:22:24.235Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/alicesoi",
 		"@type": [
@@ -136,7 +135,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_02.xml?note_annotation_20260322142224235#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note[2]"
+			"rdf:value": "TEI/text/body/p/note[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -393,6 +392,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_02.xml?note_annotation_20260322143520323",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-03-22T13:35:20.323Z",
+	"dcterms:modified": "2026-03-22T13:35:20.323Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alicesoi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alice Soiné"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_02.xml?note_annotation_20260322143520323#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_02.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_02.xml?note_annotation_20260322143520323#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "Väterliche Liebe wird nicht als Option aufgezählt."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.1.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
     <editorialDecl>
       <p>
@@ -431,7 +509,7 @@
 <lb/>Es sei mir gestattet, die grosse Zahl der Charaktereigenschaften und Ge 
 <lb/>mütsstimmungen hier anzuführen, die sich im Gesicht — also auch in der Photo 
 <lb/>graphie<note type="annotation">Diese selbstbewusste Einordnung eines Vertreters der Lehre der Phrenophysiognomie verdeutlicht die Absurdität der darin implizierten Annahmen: Nicht nur wird behauptet, von äußeren Merkmalen auf Charaktereigenschaften schließen zu können, sondern auch, das anhand einer unbewegten Momentaufnahme zu können.</note>, wiederspiegeln und dem geübten Phreno-Physiognomiker deutlich siehtbar
-<lb/>sind: Sinnliche Liebe, eheliche Liebe, mütterliche Liebe, Freundschaft, Gesellig 
+<lb/>sind: Sinnliche Liebe, eheliche Liebe, mütterliche Liebe<note>Väterliche Liebe wird nicht als Option aufgezählt.</note>, Freundschaft, Gesellig 
 <lb/>keit, Wohlwollen. Mitleid, Dankbarkeit, versöhnliches Wesen, Lebensliebe, Würde,
 <lb/>Stolz, befehlshaberisches Wesen, Verachtung, Hohn, Spott, Trotz, Beifallsliebe,
 <lb/>Eitelkeit, Ehrgeiz, Bescheidenheit, Melancholie, Entschlossenheit, Widerspruch,
