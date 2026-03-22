@@ -312,6 +312,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_01.xml?note_annotation_20260322130004298",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-03-22T12:00:04.298Z",
+	"dcterms:modified": "2026-03-22T12:00:04.298Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/alicesoi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alice Soiné"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_01.xml?note_annotation_20260322130004298#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_01.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/alicesoi/Stuttgart_2026_03_14/main/AlicesHausaufgabe_01.xml?note_annotation_20260322130004298#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "Dieser Halbsatz ist als Hinweis auf Alices Einschlafen zu verstehen. Der sog. hypnagoge Zustand in diesem Bewusstseinsprozess ist von halluzinatorischen Eindrücken geprägt. Typischerweise ist das rationale Denkvermögen noch leicht aktiv, was sich in dieser Passage daran zeigt, dass Alice über ihre eigene (verwunderliche) Wahrnehmung nachdenkt. Die diesem Moment folgenden Zeilen entsprechen dem Traumerleben Alices. "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.1.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
       <editorialDecl>
         <p>
@@ -349,7 +428,7 @@
 <lb/>Gespraͤche darin. „Und was nützen Bucher,“ dachte <persName key="Alice" ref="http://www.wikidata.org/entity/Q1269082">Alice</persName>,
 <lb/>ohne Bilder und Gespräche?
 <lb/>Sie überlegte sich eben, so gut es ging, denn sie
-<lb/>war schläfrig und dumm von der Hitze, ob es der
+<lb/>war schläfrig und dumm von der Hitze<note type="annotation">Dieser Halbsatz ist als Hinweis auf Alices Einschlafen zu verstehen. Der sog. hypnagoge Zustand in diesem Bewusstseinsprozess ist von halluzinatorischen Eindrücken geprägt. Typischerweise ist das rationale Denkvermögen noch leicht aktiv, was sich in dieser Passage daran zeigt, dass Alice über ihre eigene (verwunderliche) Wahrnehmung nachdenkt. Die diesem Moment folgenden Zeilen entsprechen dem Traumerleben Alices. </note>, ob es der
 <lb/>Mühe werth sei aufzustehen und Gänseblümchen zu
 <lb/>pflücken, um eine Kette damit zu machen, als plötzlich
 <lb/>ein <persName key="White Rabbit" ref="http://www.wikidata.org/entity/Q178776">weißes Kaninchen</persName> mit rothen Augen dicht an ihr
