@@ -596,7 +596,7 @@
 <lb/>er in Berlin nicht heimisch ist, ersucht, sich am
 <lb/><date when="18100724">vierundzwanzigsten Julius des künftigen Jahres<note>Hoffmann datiert das Jahr seiner Erzählung nicht konkret, vermutlich soll es sich aber um die Wende vom 18. zum 19. Jahrhundert handeln, weil die meisten seiner Erzählungen in der Zeit der frühen Romantik spielen. </note></date>
 <lb/>in <placeName key="Land Berlin" ref="https://sws.geonames.org/2950157" cert="high">Berlin<precision match="@ref" precision="high"/></placeName> und zwar in dem Hotel, die Sonne ge 
-<lb/>heißen, bei der <persName cert="unknown" type="fictional">Madame Obermann</persName> einzufinden,
+<lb/>heißen, bei der <persName cert="unknown" type="fictional"><persName cert="high">Madame Obermann</persName></persName> einzufinden,
 <lb/>um das Nähere über den Inhalt jener Brieftasche
 <lb/>der ihm vielleicht interessant geworden, zu er 
 <lb/>fahren. Sollte jedoch der besagte junge Mann
