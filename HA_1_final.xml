@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns=http://www.tei-c.org/ns/1.0>
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Alice's Abenteuer im Wunderland</title>
+        <author>
+          <persName>
+            <surname>Carroll</surname>
+            <forename>Lewis</forename>
+          </persName>
+        </author>
+        <respStmt>
+          <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="https://www.bbaw.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+      <extent>
+        <measure type="images"/>
+        <measure type="tokens"/>
+        <measure type="types"/>
+        <measure type="characters"/>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2026-03-22T11:22:06Z</date>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">
+            <p>Public Domain Mark 1.0</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M"/>
+        <biblFull>
+          <titleStmt>
+          <title level="m" type="main">Alice's Abenteuer im Wunderland</title>
+            <author>
+              <persName>
+                <surname>Carroll</surname>
+                <forename>Lewis</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher><name>Hartknoch</name></publisher>
+              <pubPlace>Leipzig</pubPlace>
+            <date type="publication">1869</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc xml:id="imagesource-1" corresp="#availability-imagesource-1">
+          <msIdentifier>
+            <repository>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Germany</repository>
+            <idno>
+              <idno type="shelfmark">B IV 2a, 1207 R</idno>
+              <idno type="URLImages">http://resolver.staatsbibliothek-berlin.de/SBB0000402300000000</idno>
+            </idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc>
+      <editorialDecl>
+        <p>
+            Bogensignaturen: keine Angabe;
+            Druckfehler: keine Angabe;
+            fremdsprachliches Material: keine Angabe;
+            Geminations-/Abkürzungsstriche: keine Angabe;
+            Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+            I/J in Fraktur: keine Angabe;
+            i/j in Fraktur: keine Angabe;
+            Kolumnentitel: keine Angabe;
+            Kustoden: keine Angabe;
+            langes s (ſ): keine Angabe;
+            Normalisierungen: keine Angabe;
+            rundes r (ꝛ): keine Angabe;
+            Seitenumbrüche markiert: keine Angabe;
+            Silbentrennung: keine Angabe;
+            u/v bzw. U/V: keine Angabe;
+            Vokale mit übergest. e: keine Angabe;
+            Vollständigkeit: keine Angabe;
+            Zeichensetzung: keine Angabe;
+            Zeilenumbrüche markiert: keine Angabe;
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+<text>
+<body>
+<p>
+<lb/>Erſtes Kapfiel.
+<lb/>Gespraͤche darin. „Und was nützen Bucher,“ dachte <persName key="Alice" ref="http://www.wikidata.org/entity/Q1269082">Alice</persName>,
+<lb/>„ohne Bilder und Gespräche?“
+<lb/>Sie überlegte sich eben, so gut es ging, denn sie
+<lb/>war schläfrig und dumm von der Hitze<note type="annotation">Dieser Halbsatz ist als Hinweis auf Alices Einschlafen zu verstehen. Der sog. hypnagoge Zustand in diesem Bewusstseinsprozess ist von halluzinatorischen Eindrücken geprägt. Typischerweise ist das rationale Denkvermögen noch leicht aktiv, was sich in dieser Passage daran zeigt, dass Alice über ihre eigene (verwunderliche) Wahrnehmung nachdenkt. Die diesem Moment folgenden Zeilen entsprechen dem Traumerleben Alices. </note>, ob es der
+<lb/>Mühe werth sei aufzustehen und Gänseblümchen zu
+<lb/>pflücken, um eine Kette damit zu machen, als plötzlich
+<lb/>ein <persName key="White Rabbit" ref="http://www.wikidata.org/entity/Q178776">weißes Kaninchen</persName> mit rothen Augen dicht an ihr
+<lb/>vorbeirannte.
+<lb/>Dies war grade nicht sehr merkwürdig; Alice fand
+<lb/>es auch nicht sehr außerordentlich, daß sie das Kanin 
+<lb/>chen sagen hörte: „O weh, o weh! Ich werde zu spät
+<lb/>kommen!" (Als sie es später wieder überlegte, fiel ihr
+<lb/>ein, daß sie sich darüber hätte wundern sollen; doch zur
+<lb/>Zeit kam es ihr Alles ganz natürlich vor.) Aber als das
+<lb/>Kaninchen seine Uhr aus der Westentasche zog,
+<lb/>nach der Zeit sah und eilig fortlief, sprang Alice auf;
+<lb/>denn es war ihr doch noch nie vorgekommen, ein
+<lb/>Kaninchen mit einer Westentasche und einer Uhr darin
+<lb/>zu sehen. Vor Neugierde brennend, rannte sie ihm
+<lb/>nach über den <placeName key="Grasplatz" ref="http://www.wikidata.org/entity/Q3044948">Grasplatz</placeName>, und kam noch zur rechten
+<lb/>Zeit, um es in ein großes Loch unter der Hecke schlüpfen
+<lb/>zu sehen.
+<lb/>Den nächsten Augenblick war sie ihm nach in
+</p>
+</body>
+</text>
+</TEI>
+
