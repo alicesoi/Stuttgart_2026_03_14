@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+<teiHeader> 
+<fileDesc> 
+<titleStmt> 
+<title type="main">Briefwechsel zwischen einem Vater und seinem Sohn auf der Akademie : Allen rechtschaffenen Vätern, und ihren studierenden Söhnen gewidmet</title> 
+<author> 
+<persName> 
+<surname>Miller</surname> 
+<forename>Johann Martin</forename> 
+</persName> 
+</author> 
+<respStmt> 
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName> 
+<resp> 
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note> 
+<ref target="https://www.bbaw.de"/> 
+</resp> 
+</respStmt> 
+</titleStmt> 
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt> 
+<extent> 
+<measure type="images"/> 
+<measure type="tokens"/> 
+<measure type="types"/> 
+<measure type="characters"/> 
+</extent> 
+<publicationStmt> 
+<publisher xml:id="DTACorpusPublisher"> 
+<email>dta@bbaw.de</email> 
+<orgName role="project">Deutsches Textarchiv</orgName> 
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName> 
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName> 
+<address> 
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine> 
+<country>Germany</country> 
+</address> 
+</publisher> 
+<pubPlace>Berlin</pubPlace> 
+<date type="publication">2026-03-14T10:36:13Z</date> 
+</publicationStmt> 
+<sourceDesc> 
+<bibl type="M">Briefwechsel zwischen einem Vater und seinem Sohn auf der Akademie</bibl> 
+<biblFull> 
+<titleStmt> 
+<title level="m" type="main">Briefwechsel zwischen einem Vater und seinem Sohn auf der Akademie : Allen rechtschaffenen Vätern, und ihren studierenden Söhnen gewidmet</title> 
+<author> 
+<persName> 
+<surname>Miller</surname> 
+<forename>Johann Martin</forename> 
+</persName> 
+</author> 
+</titleStmt> 
+<editionStmt> 
+<edition n="1"/> 
+</editionStmt> 
+<publicationStmt> 
+<publisher/> 
+<pubPlace>Ulm</pubPlace> 
+<date type="publication">1785</date> 
+</publicationStmt> 
+</biblFull> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<editorialDecl> 
+<p> 
+Bogensignaturen: keine Angabe; 
+Druckfehler: keine Angabe; 
+fremdsprachliches Material: keine Angabe; 
+Geminations-/Abkürzungsstriche: keine Angabe; 
+Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe; 
+I/J in Fraktur: keine Angabe; 
+i/j in Fraktur: keine Angabe; 
+Kolumnentitel: keine Angabe; 
+Kustoden: keine Angabe; 
+langes s (ſ): keine Angabe; 
+Normalisierungen: keine Angabe; 
+rundes r (&amp;#xa75b;): keine Angabe; 
+Seitenumbrüche markiert: keine Angabe; 
+Silbentrennung: keine Angabe; 
+u/v bzw. U/V: keine Angabe; 
+Vokale mit übergest. e: keine Angabe; 
+Vollständigkeit: keine Angabe; 
+Zeichensetzung: keine Angabe; 
+Zeilenumbrüche markiert: keine Angabe; 
+</p> 
+</editorialDecl> 
+</encodingDesc> 
+<profileDesc> 
+<textClass> 
+</textClass> 
+</profileDesc> 
+</teiHeader> 
+<text> 
+<body> 
+<p>Vorrede. 
+<lb/>erfahrener Mann darinn als alter 
+<lb/>Freund, Rathgeber und <persName ref="https://d-nb.info/gnd/1278352260">Lehrer</persName> ſeines 
+<lb/>Sohnes auftrit und sich mit ihm in ver 
+<lb/>traulichem Tone über ſeine Pflichten un 
+<lb/>terhält, noch zweckmaͤßiger und nützli 
+<lb/>cher für sie werden koͤnnte. Und dieſes 
+<lb/>Buch ist nun gegenwaͤrtiger Brief 
+<lb/>wechsel, den ich in der guten Absicht 
+<lb/>und Hofnung der <placeName>Welt</placeName> mittheile, daß 
+<lb/>entweder manche <persName ref="https://d-nb.info/gnd/1278352260">Väter</persName> und Rathgeber 
+<lb/>junger Studierenden ihnen denselben als 
+<lb/>einen wohlmeynenden Freund zum Be= 
+<lb/>gleiter auf die Universitaͤt mit geben, 
+<lb/>oder daß sie ihn ſelbſt ſich als ſolchen 
+<lb/>auswählen und manches gute von ihm 
+<lb/>lernen werden. Wird diese Absicht er 
+<lb/>reicht, so ist mein Wunsch, der mich 
+<lb/>von Anfang bis zum Ende beym Schrei 
+<lb/>ben belebte, und immer, wie die Muſe 
+<lb/>neben dem wahren Dichter<note type="editorial">Vermutlich meint er Goethe</note>, mir zur Seite 
+<lb/>ſtand, erfuͤllt. 
+<lb/>Belehrung junger angehender Aka 
+<lb/>demiker, beſonders aus der theologiſchen, 
+<lb/>als 
+)( 2</p> 
+</body> 
+</text> 
+</TEI>
